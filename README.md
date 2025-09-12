@@ -59,18 +59,13 @@ This is a step-by-step breakdown of how the Python script takes raw data and tur
 
 ## 🚀 How to Run It
 
-1.  **Clone this project:**
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
 
-2.  **Install the necessary libraries:**
+1.  **Install the necessary libraries:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Run the script:**
+2.  **Run the script:**
     ```bash
     python planetary_classifier.py
     ```
@@ -84,11 +79,11 @@ The Random Forest model performed the best after being fine-tuned.
 
 * **Best Model:** Random Forest Classifier
 * **Best Settings Found:** `{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}`
-* **Model Accuracy:** `0.8677579801030829`
+* **Model Accuracy:** `0.8677579801030829`( `86.8%`)
 
 ### Most Important Features
 
-This chart shows which planetary features most influenced the model's predictions. It looks like `[Mention the top 1-2 features from your plot]` were the most important!
+This chart shows which planetary features most influenced the model's predictions.  From this analysis, it's clear that a `planet's Atmospheric Density and its Surface Temperature` were the most influential factors in the model's decisions !
 
 ![Feature Importance Plot](feature_importance.png)
 
