@@ -79,7 +79,10 @@ The Random Forest model performed the best after being fine-tuned.
 
 * **Best Model:** Random Forest Classifier
 * **Best Settings Found:** `{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}`
-* **Model Accuracy:** `0.8677579801030829`( `86.8%`)
+* **Overall Model Accuracy:**  `86.8%`
+* **Weighted F1-Score:** `0.8677579801030829`
+
+* For a more detailed breakdown of all model results, please see the [Model Evaluation Report](EVALUATION.md).
 
 ### Most Important Features
 
