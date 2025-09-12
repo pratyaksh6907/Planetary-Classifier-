@@ -13,8 +13,9 @@ A clean and organized layout is essential for any project. Here’s how this one
 > ├── planetary_classifier.py  # The main Python script.
 > ├── requirements.txt              # A list of necessary Python libraries.
 > ├── feature_importance.png        # The saved chart of important features.
-> └── README.md                     # This documentation file.
-> ```
+> ├── README.md     #The documentation file.
+>└──EVALUATION.md   #A report on perfomance of the model
+ >```
 
 ---
 
