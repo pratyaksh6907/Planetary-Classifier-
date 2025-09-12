@@ -3,10 +3,38 @@
 This is my first machine learning project! It's a program that tries to predict whether a planet could be habitable based on data like its temperature, gravity, and water content.
 
 ---
+## 📂 Project Structure
 
-## 🤔 What This Code Does: A Step-by-Step Guide
+A clean and organized layout is essential for any project. Here’s how this one is structured:
 
-I wrote a Python script that trains a computer to make predictions. Here’s how it works:
+> ```
+> .
+> ├──  planetary_dataset.csv         # The raw data used to train the model.
+> ├── planetary_classifier.py  # The main Python script.
+> ├── requirements.txt              # A list of necessary Python libraries.
+> ├── feature_importance.png        # The saved chart of important features.
+> └── README.md                     # This documentation file.
+> ```
+
+---
+
+
+## 🛠️ Technical Stack
+
+This section outlines the key technologies and libraries used to build the project.
+
+* **Python:** The core programming language used for the project.
+* **Pandas:** Used for loading, cleaning, and manipulating the planetary dataset.
+* **Scikit-learn:** The most important library in this project. It provided all the tools for building, training, and testing the machine learning models.
+* **Matplotlib & Seaborn:** Used together to create the final chart that visualizes which features the model found most important.
+* **Joblib:** A simple tool used to save the final, trained model to a file.
+
+---
+
+## ⚙️ The Technical Pipeline
+
+This is a step-by-step breakdown of how the Python script takes raw data and turns it into a smart, predictive model.
+
 
 1.  **Load the Data:** The code starts by loading the dataset of planets (`planetary_dataset.csv`).
 
@@ -21,7 +49,7 @@ I wrote a Python script that trains a computer to make predictions. Here’s how
     * Naive Bayes
     * **Random Forest** (This one turned out to be the best!)
 
-6.  **Improve the Best Model:** I used a tool called `GridSearchCV` to automatically fine-tune the Random Forest model's settings. This process made the model even more accurate.
+6.  **Hyperparameter Tuning:** This is like fine-tuning a car engine to get the best performance. The script uses a tool called `GridSearchCV` to automatically test different settings for the Random Forest model and find the combination that makes it the most accurate.
 
 7.  **Check What's Important:** The code generates a chart showing which factors (like 'Surface Temperature' or 'Gravity') were the most important for making a prediction.
 
